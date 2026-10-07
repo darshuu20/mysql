@@ -26,3 +26,19 @@ Insert into employee values
 (114,'Isha',55000,'Mumbai','HR',29),
 (115,'Kabir',49000,'Delhi','Finance',31);
 
+#display all employee where eloc is chennai
+select* from employee
+where eloc='Chennai';
+
+#display all employee where age is less than 40
+select * from employee
+ where age < 40;
+
+ #display all employee where esal is less than 50k
+select * from employee
+ where esal < 50000;
+
+ #display all employee where eloc is delhi and dept_name is IT
+select * from employee
+where eloc='Delhi' and dept_name='IT';
+
